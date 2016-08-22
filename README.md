@@ -1,4 +1,4 @@
-# Lembrete App + LaravelAPI + Angular
+# Lembrete App : LaravelAPI + Angular
 
 ## Sobre
 
@@ -10,7 +10,6 @@
 
 ## Screenshots
 ...
-
 
 ## Referência
 * [xxxxxx](#)
