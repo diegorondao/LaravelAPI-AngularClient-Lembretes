@@ -9,7 +9,7 @@
 [Clique aqui para ver a demo](#)
 
 ## Screenshots
-[Clique aqui para ver a demo](#)
+...
 
 
 ## Referência
