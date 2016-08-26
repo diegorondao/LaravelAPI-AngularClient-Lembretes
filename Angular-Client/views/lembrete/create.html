@@ -1,0 +1,14 @@
+<div class="card-panel">
+{{title}}
+	<form ng-submit="saveLembrete()">
+	<div class="input-field">
+		<input  placeholder="Nome" type="text" ng-model="Lembrete.name">
+	</div>
+	<div class="input-field">
+		<input  placeholder="Descrição" type="text" ng-model="Lembrete.description">
+	</div>
+	<button class="btn waves-effect" type="submit">
+			{{button}}
+	</button>
+	</form>
+</div>

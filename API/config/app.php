@@ -147,6 +147,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        
 
         /*
          * Application Service Providers...
@@ -155,7 +156,7 @@ return [
         API\Providers\AuthServiceProvider::class,
         API\Providers\EventServiceProvider::class,
         API\Providers\RouteServiceProvider::class,
-
+        Barryvdh\Cors\ServiceProvider::class,
     ],
 
     /*

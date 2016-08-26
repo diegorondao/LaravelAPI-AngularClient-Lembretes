@@ -9,7 +9,9 @@ class Lembrete extends Model
 {
    	use SoftDeletes;
 
-   	protected $table = 'lembrete';
+   	protected $table = 'lembretes';
    	protected $fillable = ['name','description'];
+   	
    	protected $dates = ['deleted_at'];
 }
+	
