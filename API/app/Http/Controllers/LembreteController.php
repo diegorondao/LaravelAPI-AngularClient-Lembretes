@@ -14,6 +14,14 @@ class LembreteController extends Controller
 		$this->middleware('cors');					
 	}
 
+	public function index()
+	{
+		$lembretes = Lembrete::all();
+		return response()-> json($lembretes->toArray());
+
+		
+	}
+
     public function store(Request $request)
     {
        	Lembrete::create($request->all());

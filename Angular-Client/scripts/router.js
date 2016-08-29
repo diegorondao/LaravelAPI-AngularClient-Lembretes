@@ -4,11 +4,11 @@ angular.module('Client',['ngResource','ngRoute'])
 	.config(function($routeProvider){
 		$routeProvider
 		.when('/lembretes',{
-				templateUrl: 'views/lembretes/index.html',
+				templateUrl: 'views/lembrete/index.html',
 				controller: 'IndexLembreteCtrl'
 		})
 		.when('/lembretes/new',{
-				templateUrl: 'views/lembretes/create.html',
+				templateUrl: 'views/lembrete/create.html',
 				controller: 'CreateLembreteCtrl'
 		})
 		.otherwise({
