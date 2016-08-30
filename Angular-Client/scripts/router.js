@@ -11,6 +11,10 @@ angular.module('Client',['ngResource','ngRoute'])
 				templateUrl: 'views/lembrete/create.html',
 				controller: 'CreateLembreteCtrl'
 		})
+		.when('/lembretes/edit/:id',{
+				templateUrl: 'views/lembrete/create.html',
+				controller: 'EditLembreteCtrl'
+		})
 		.otherwise({
 			redirectTo: '/'
 

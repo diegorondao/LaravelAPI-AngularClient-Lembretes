@@ -1,14 +1,15 @@
-<div class="card-panel">
-{{title}}
+<div class="card-panel contenedor z-depth-3">
+<h4 class="center-align">{{title}}</h4>
 	<form ng-submit="saveLembrete()">
-	<div class="input-field">
-		<input  placeholder="Nome" type="text" ng-model="Lembrete.name">
-	</div>
-	<div class="input-field">
-		<input  placeholder="Descrição" type="text" ng-model="Lembrete.description">
-	</div>
-	<button class="btn waves-effect" type="submit">
-			{{button}}
-	</button>
+		<div class="input-field">
+			<input placeholder="Name" type="text" ng-model="Lembrete.name">
+		</div>
+		<div class="input-field">
+			<textarea placeholder="Description" class="materialize-textarea" ng-model="Lembrete.description"></textarea>
+		</div>
+
+		<button class="btn waves-effect blue darken-3" type="submit">
+				{{button}}
+		</button>
 	</form>
 </div>

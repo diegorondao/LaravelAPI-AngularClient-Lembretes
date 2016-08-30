@@ -2,28 +2,25 @@
     <i class="material-icons prefix">Buscar</i>
     <input placeholder="" type="text" ng-model="search">
 </div>
-        	
 
 
 <div class="row">
     <div ng-repeat="Lembrete in Lembretes | filter:search" class="col s3 m3">
-        <div class="card amber darken-4">
+        <div class="card amber brown">
             <div class="card-content white-text">
               <span class="card-title">{{Lembrete.name}}</span>
               <p>{{Lembrete.description}}</p>
             </div>
             <div class="card-action">
-              <a href="#/notes/edit/{{Lembrete.id}}"><i class="material-icons">edit</i></a>
-              <a href="#" ng-click="RemoveLembrete(Lembrete.id)"><i class="material-icons">delete</i></a>
+              <a href="#/lembretes/edit/{{Lembrete.id}}"><i class="material-icons">edit</i></a>
+              <a href="#" ng-click="removeLembrete(Lembrete.id)"><i class="material-icons">delete</i></a>
             </div>
         </div>
     </div>
 </div> 
 
-
-
   <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-    <a href="#/lembretes/new" class="btn-floating btn-large waves-effect waves-light red">
-      <i class="large material-icons">add</i>
+    <a href="#/lembretes/new" class="btn-floating btn-large waves-effect waves-light green">
+      <i class="large material-icons">Add</i>
     </a>
   </div>
